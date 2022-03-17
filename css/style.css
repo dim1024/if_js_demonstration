@@ -1,0 +1,103 @@
+body {
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient(rgb(12, 1, 61), rgb(33, 128, 252));
+    /* background: url('/img/background_mountains.png'), linear-gradient(red, yellow); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;  
+}
+
+.counterDisplayContainer {
+    display: flex;
+    position: relative;
+    justify-content: center;  
+    /* align-self: center; */
+    top: 15%;  
+    z-index: 5;  
+}
+
+.counter {     
+    position: absolute;
+    /* width: 40vw; */
+    height: 130px;
+    /* max-width: 400px; */
+    min-width: 200px;
+    background-color: transparent;
+    /* border-color: rgb(7, 1, 31);  
+    border-width: 6px;   */
+    border-radius: 15px;
+    border: none;
+    font-size: 200px;
+    font-weight: bold;
+    color:bisque;
+    font-family: monospace;
+}
+
+.hitButtonContainer {
+    display: flex;
+    justify-content: center; 
+    vertical-align: text-bottom;  
+}
+
+.hitButton {
+    position: absolute;
+    background: rgb(158, 235, 235);
+    border-color: rgb(5, 163, 202);
+    border-width: 2px;  
+    border-radius: 15px;
+    color:rgb(52, 52, 138);
+    font-size: 27px;
+    z-index: 3;
+    bottom: 10%;
+    width: 60vw;
+    height: 85px;
+    max-width: 400px;
+    font-weight: 500;
+}
+
+.resetButtonContainer {
+    display: flex;
+    justify-content: center; 
+    vertical-align: text-bottom;   
+}
+
+
+/* .resetButtonContainer {
+    display: flex;
+    position: relative;
+    justify-content: center;  
+
+    top: 25%;  
+    z-index: 5;  
+} */
+
+.resetBackground {     
+    position: absolute;
+    width: 40vw;
+    height: 130px;
+    max-width: 400px;
+    min-width: 200px;
+    background-color: rgb(57, 214, 253);
+    opacity: 0.4;
+    /* border-color: rgb(7, 1, 31);  
+    border-width: 6px;   */
+    border-radius: 15px;
+    border: none; 
+}
+
+.resetButton { 
+    position: absolute;
+    background: rgb(158, 235, 235);
+    border-color: rgb(5, 163, 202);
+    border-width: 2px;  
+    border-radius: 15px;
+    color:rgb(52, 52, 138);
+    font-size: 27px;
+    z-index: 3;
+    bottom: 25%;
+    width: 60vw;
+    height: 85px;
+    max-width: 400px;
+    font-weight: 500;
+}
